@@ -13,3 +13,7 @@ The repository contains the following files:
 3. **BERT**: this folder contains a Jupyter Notebook with a BERT model trained using the library `simpletransformers`.
 
 An app that uses the classifier models to predict new political statements has been deployed to [http://chigibot.eu.pythonanywhere.com](http://chigibot.eu.pythonanywhere.com) (only the Naive Bayes classifier is used at the moment).
+
+If you cite/use material from this repo, please cite the repository URL:
+
+Ceolin, A. (2024). Chigibot. https://github.com/AndreaCeolin/chigibot
