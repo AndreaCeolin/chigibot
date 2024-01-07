@@ -1,8 +1,8 @@
 # Chigibot
 
-This repository contains a corpus of political speeches from Italian Prime Ministers in the Camera dei Deputati Legislature XVII, XVIII and XIX (2013-2024). 
+This repository contains a corpus of political speeches from Italian Prime Ministers in the Camera dei Deputati during Legislature XVII, XVIII and XIX (2013-2024). 
 
-Six different Prime Ministers were appointed in this period (Enrico Letta, Matteo Renzi, Paolo Gentiloni, Giuseppe Conte, Mario Draghi and Giorgia Meloni), and they cover basically every part of the political spectrum.
+Six different Prime Ministers were appointed in this period (Enrico Letta, Matteo Renzi, Paolo Gentiloni, Giuseppe Conte, Mario Draghi and Giorgia Meloni), and they cover basically every corner of the political spectrum.
 
 The repository contains the following files:
 
