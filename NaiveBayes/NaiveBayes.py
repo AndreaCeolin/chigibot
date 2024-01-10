@@ -28,10 +28,7 @@ for class_folder in os.listdir(data_folder):
             sentences.extend(doc_sentences)
             labels.extend([class_folder] * len(doc_sentences))
 
-label_to_int = {'LETTA Enrico': 0, 'MELONI Giorgia': 1, 'CONTE Giuseppe': 2, 'DRAGHI Mario': 3, 'RENZI Matteo': 4, 'GENTILONI SILVERI Paolo': 5}
-int_to_label = {value:key for key,value in label_to_int.items()}
-
-print('Number of Training Data:', len(sentences))
+print('Number of Sentences:', len(sentences))
 
 X_train, X_test, y_train, y_test = train_test_split(sentences, labels, test_size=0.2, stratify=labels, random_state=1946)
 
@@ -43,7 +40,6 @@ classifier = Pipeline([
 classifier.fit(X_train, y_train)
 
 y_pred = classifier.predict(X_test)
-y_pred_proba = classifier.predict_proba(X_test)
 
 print('\nClassification Report:')
 print(classification_report(y_test, y_pred))
