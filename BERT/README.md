@@ -1,0 +1,1 @@
+To run this script you must first download the [model parameters](https://drive.google.com/file/d/1-hQBxdcUhohHVsbgA_jojlncBt02OlW3/view?usp=share_link) and add them to the *fine_tuned_bert-base-italian-xxl-cased_5* folder.
