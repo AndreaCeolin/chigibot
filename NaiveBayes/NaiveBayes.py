@@ -1,6 +1,7 @@
 import os
 import re
 import numpy as np
+import string
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
@@ -10,8 +11,9 @@ from sklearn.metrics import classification_report
 data_folder = '../data'
 
 def extract_sentences(text):
+    #split by period, then remove punctuation
     sentences = re.split(r'\.', text)
-    sentences = [sentence.strip() for sentence in sentences if sentence.strip()]
+    sentences = [sentence.strip().replace(string.punctuation, '') for sentence in sentences if sentence.strip()]
     return sentences
 
 sentences, labels = [], []
